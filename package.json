@@ -1,0 +1,33 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private Zenn content repository for @koenigwolf",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book",
+    "check": "zenn list:articles && zenn list:books"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bright-broom/zenn-content.git"
+  },
+  "keywords": [
+    "zenn"
+  ],
+  "author": "BrightBroom",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bright-broom/zenn-content/issues"
+  },
+  "homepage": "https://github.com/bright-broom/zenn-content#readme",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "npm@11.17.0",
+  "devDependencies": {
+    "zenn-cli": "^0.5.3"
+  }
+}
