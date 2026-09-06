@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbfd"/><stop offset="1" stop-color="#e8f5f3"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#173449" flood-opacity=".14"/></filter></defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <text x="85" y="105" fill="#0b2840" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="52" font-weight="700">「約 70 トークン」は何を数えているのか</text>
+  <text x="87" y="157" fill="#557184" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">表示値はレビュー全体の実測ではなく、入力サイズの概算比較</text>
+
+  <g filter="url(#s)">
+    <rect x="80" y="230" width="630" height="370" rx="30" fill="#ffffff"/>
+    <rect x="890" y="230" width="630" height="370" rx="30" fill="#ffffff"/>
+  </g>
+  <rect x="80" y="230" width="630" height="80" rx="30" fill="#123f5b"/><rect x="80" y="280" width="630" height="30" fill="#123f5b"/>
+  <text x="395" y="282" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="30" font-weight="700">比較元</text>
+  <text x="395" y="370" text-anchor="middle" fill="#0b2840" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="31" font-weight="700">変更ファイルのバイト数</text>
+  <line x1="190" y1="413" x2="600" y2="413" stroke="#90a7b7" stroke-width="3"/>
+  <text x="395" y="469" text-anchor="middle" fill="#0b2840" font-family="Arial, sans-serif" font-size="55" font-weight="700">÷ 4</text>
+  <text x="395" y="537" text-anchor="middle" fill="#667f90" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24">「4 文字＝1 トークン」の概算</text>
+
+  <rect x="890" y="230" width="630" height="80" rx="30" fill="#087f72"/><rect x="890" y="280" width="630" height="30" fill="#087f72"/>
+  <text x="1205" y="282" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="30" font-weight="700">比較先</text>
+  <text x="1205" y="370" text-anchor="middle" fill="#0b2840" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="31" font-weight="700">構造化 JSON の文字数</text>
+  <line x1="1000" y1="413" x2="1410" y2="413" stroke="#90a7b7" stroke-width="3"/>
+  <text x="1205" y="469" text-anchor="middle" fill="#0b2840" font-family="Arial, sans-serif" font-size="55" font-weight="700">÷ 4</text>
+  <text x="1205" y="537" text-anchor="middle" fill="#667f90" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24">ソース本文を含まない短い出力</text>
+
+  <circle cx="800" cy="415" r="68" fill="#eef4f6" stroke="#9cb3c1" stroke-width="3"/>
+  <text x="800" y="430" text-anchor="middle" fill="#38576b" font-family="Arial, sans-serif" font-size="46" font-weight="700">VS</text>
+
+  <rect x="160" y="655" width="1280" height="150" rx="26" fill="#0b2840"/>
+  <text x="800" y="716" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="30">例：275 文字 ÷ 4 ＝ 68.75 → 約 69 トークン</text>
+  <text x="800" y="765" text-anchor="middle" fill="#75ebc7" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="27" font-weight="700">ここに追加参照・会話履歴・回答出力は含まれない</text>
+  <rect x="700" y="830" width="200" height="8" rx="4" fill="#22b89b"/>
+</svg>

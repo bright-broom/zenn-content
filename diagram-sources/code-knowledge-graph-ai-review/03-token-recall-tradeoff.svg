@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" rx="40" fill="#071c31"/>
+  <text x="85" y="105" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="52" font-weight="700">候補を削るほど、見逃しのリスクは上がる</text>
+  <text x="87" y="157" fill="#a9c2d5" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">トークン削減と検索再現率の関係を示す概念図（実測値ではない）</text>
+
+  <g transform="translate(170 235)">
+    <line x1="0" y1="480" x2="1200" y2="480" stroke="#7792a7" stroke-width="4"/>
+    <line x1="0" y1="480" x2="0" y2="0" stroke="#7792a7" stroke-width="4"/>
+    <path d="M1180 465l25 15-25 15" fill="none" stroke="#7792a7" stroke-width="4"/>
+    <path d="M-15 22l15-25 15 25" fill="none" stroke="#7792a7" stroke-width="4"/>
+    <text x="1180" y="535" text-anchor="end" fill="#c5d6e2" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24">返す候補数・探索深度</text>
+    <text x="-55" y="20" transform="rotate(-90 -55 20)" fill="#c5d6e2" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24">大きい</text>
+
+    <path d="M35 440 C280 430, 500 390, 700 280 S1040 75, 1160 50" fill="none" stroke="#43e5c0" stroke-width="12" stroke-linecap="round"/>
+    <path d="M35 420 C230 270, 510 160, 760 115 S1040 80, 1160 76" fill="none" stroke="#f5b96f" stroke-width="12" stroke-linecap="round"/>
+
+    <g fill="#43e5c0"><circle cx="260" cy="420" r="10"/><circle cx="650" cy="310" r="10"/><circle cx="1030" cy="88" r="10"/></g>
+    <g fill="#f5b96f"><circle cx="260" cy="250" r="10"/><circle cx="650" cy="132" r="10"/><circle cx="1030" cy="83" r="10"/></g>
+
+    <rect x="780" y="235" width="335" height="108" rx="22" fill="#0d3e4a" stroke="#43e5c0" stroke-width="3"/>
+    <text x="947" y="280" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="27" font-weight="700">モデル入力トークン</text>
+    <text x="947" y="316" text-anchor="middle" fill="#8df1d8" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">候補を増やすと増加</text>
+
+    <rect x="250" y="85" width="330" height="108" rx="22" fill="#4a382d" stroke="#f5b96f" stroke-width="3"/>
+    <text x="415" y="130" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="27" font-weight="700">検索再現率の傾向</text>
+    <text x="415" y="166" text-anchor="middle" fill="#ffd09a" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">候補を増やすと改善しやすい</text>
+
+    <rect x="520" y="0" width="220" height="480" fill="#ffffff" opacity=".06"/>
+    <line x1="520" y1="0" x2="520" y2="480" stroke="#d8e8f0" stroke-width="2" stroke-dasharray="10 12"/>
+    <line x1="740" y1="0" x2="740" y2="480" stroke="#d8e8f0" stroke-width="2" stroke-dasharray="10 12"/>
+    <text x="630" y="455" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22" font-weight="700">検証で探す領域</text>
+  </g>
+  <text x="800" y="835" text-anchor="middle" fill="#a9c2d5" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24">最小トークンではなく、必要な影響候補を取りこぼさない最小範囲を探す</text>
+</svg>

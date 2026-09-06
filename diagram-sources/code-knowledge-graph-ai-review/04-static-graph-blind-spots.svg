@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><radialGradient id="core"><stop stop-color="#1f6e77"/><stop offset="1" stop-color="#0e3448"/></radialGradient><filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#00101d" flood-opacity=".4"/></filter></defs>
+  <rect width="1600" height="900" rx="40" fill="#081d32"/>
+  <text x="85" y="105" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="52" font-weight="700">グラフは「影響候補」を示す。影響範囲は確定しない</text>
+  <text x="87" y="157" fill="#a9c2d5" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">静的に追える関係の外側には、実行時・設定・外部依存が残る</text>
+
+  <circle cx="800" cy="475" r="245" fill="url(#core)" stroke="#43e5c0" stroke-width="4" stroke-dasharray="14 12"/>
+  <text x="800" y="310" text-anchor="middle" fill="#8df1d8" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="27" font-weight="700">静的グラフが捉えやすい範囲</text>
+  <g stroke="#72efd2" stroke-width="5">
+    <path d="M675 440l125-70 125 70M675 440l55 125M800 370l0 135M925 440l-55 125M730 565h140"/>
+  </g>
+  <g fill="#dffcf5" stroke="#43e5c0" stroke-width="4">
+    <circle cx="675" cy="440" r="34"/><circle cx="800" cy="370" r="34"/><circle cx="925" cy="440" r="34"/><circle cx="730" cy="565" r="34"/><circle cx="800" cy="505" r="34"/><circle cx="870" cy="565" r="34"/>
+  </g>
+  <g fill="#0a3145" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text x="675" y="447">関数</text><text x="800" y="377">import</text><text x="925" y="447">型</text><text x="730" y="572">テスト</text><text x="800" y="512">参照</text><text x="870" y="572">継承</text></g>
+
+  <g filter="url(#s)" font-family="Hiragino Sans, Yu Gothic, sans-serif">
+    <g><rect x="95" y="245" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="245" y="310" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">動的 import</text></g>
+    <g><rect x="1205" y="245" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="1355" y="310" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">DI・リフレクション</text></g>
+    <g><rect x="55" y="430" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="205" y="495" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">設定・Feature Flag</text></g>
+    <g><rect x="1245" y="430" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="1395" y="495" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">SQL・ストアド</text></g>
+    <g><rect x="95" y="615" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="245" y="680" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">イベント・キュー</text></g>
+    <g><rect x="1205" y="615" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="1355" y="680" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">外部サービス</text></g>
+    <g><rect x="475" y="740" width="300" height="105" rx="22" fill="#4a382d" stroke="#f2b668" stroke-width="3"/><text x="625" y="805" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">生成コード</text></g>
+    <g><rect x="825" y="740" width="300" height="105" rx="22" fill="#5b2f37" stroke="#ff8d91" stroke-width="3"/><text x="975" y="790" text-anchor="middle" fill="#fff" font-size="27" font-weight="700">古いインデックス</text><text x="975" y="822" text-anchor="middle" fill="#ffc0c2" font-size="20">もっともらしい誤答</text></g>
+  </g>
+  <g stroke="#f2b668" stroke-width="3" stroke-dasharray="9 10" opacity=".8"><path d="M395 300l205 80"/><path d="M1205 300l-205 80"/><path d="M355 480l190 0"/><path d="M1245 480l-190 0"/><path d="M395 665l205-75"/><path d="M1205 665l-205-75"/><path d="M625 740l50-80"/><path d="M975 740l-50-80"/></g>
+</svg>
