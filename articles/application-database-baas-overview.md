@@ -3,7 +3,7 @@ title: "データベースはアプリのどこにある？ フロントエン�
 emoji: "🗺️"
 type: "tech"
 topics: ["database", "postgresql", "supabase", "web", "初心者"]
-published: false
+published: true
 ---
 
 「アプリを作るなら、Supabase を使うと便利らしい」
