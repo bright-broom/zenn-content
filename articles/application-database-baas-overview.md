@@ -3,7 +3,8 @@ title: "Supabase と PostgreSQL は何が違う？ アプリ全体から DB の�
 emoji: "🗺️"
 type: "tech"
 topics: ["database", "postgresql", "supabase", "web", "初心者"]
-published: false
+published: true
+published_at: "2026-09-08 08:00"
 ---
 
 「Supabase を使えば、バックエンドはもう作らなくていい？」
