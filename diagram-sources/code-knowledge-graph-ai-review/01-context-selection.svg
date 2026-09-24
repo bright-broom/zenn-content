@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07192f"/><stop offset="1" stop-color="#0b2d46"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42e8c4"/><stop offset="1" stop-color="#78f2b7"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020b16" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <text x="90" y="105" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="52" font-weight="700">削減の正体は「圧縮」ではなく「選別」</text>
+  <text x="92" y="157" fill="#abc4d8" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">同じリポジトリでも、AI に最初に渡す範囲を変える</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="220" width="690" height="575" rx="30" fill="#102f49" stroke="#32516b" stroke-width="2"/>
+    <rect x="840" y="220" width="690" height="575" rx="30" fill="#0d344a" stroke="#32cfae" stroke-width="2"/>
+  </g>
+  <text x="120" y="285" fill="#f4b56f" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="30" font-weight="700">全文を先に渡す</text>
+  <text x="890" y="285" fill="#62e9c3" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="30" font-weight="700">構造検索を先に使う</text>
+
+  <g transform="translate(115 335)">
+    <g fill="#214a68" stroke="#557995">
+      <rect x="0" y="0" width="92" height="118" rx="9"/><rect x="22" y="20" width="48" height="6" rx="3" fill="#8ab0cb" stroke="none"/><rect x="22" y="38" width="35" height="6" rx="3" fill="#648ba8" stroke="none"/>
+      <rect x="46" y="24" width="92" height="118" rx="9"/><rect x="92" y="0" width="92" height="118" rx="9"/><rect x="138" y="24" width="92" height="118" rx="9"/><rect x="184" y="0" width="92" height="118" rx="9"/><rect x="230" y="24" width="92" height="118" rx="9"/>
+      <rect x="276" y="0" width="92" height="118" rx="9"/><rect x="322" y="24" width="92" height="118" rx="9"/><rect x="368" y="0" width="92" height="118" rx="9"/>
+    </g>
+    <text x="205" y="190" text-anchor="middle" fill="#d9e7f1" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">関連しそうなファイル全文</text>
+    <path d="M205 230v58" stroke="#f4b56f" stroke-width="6"/><path d="M190 278l15 18 15-18" fill="none" stroke="#f4b56f" stroke-width="6"/>
+    <rect x="52" y="312" width="310" height="116" rx="20" fill="#4b3340" stroke="#f4b56f" stroke-width="2"/>
+    <text x="207" y="360" text-anchor="middle" fill="#fff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22" font-weight="700">大きな初期コンテキスト</text>
+    <text x="207" y="397" text-anchor="middle" fill="#f7c994" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">本文を先に投入</text>
+    <path d="M362 370h140" stroke="#f4b56f" stroke-width="6"/><path d="M490 355l18 15-18 15" fill="none" stroke="#f4b56f" stroke-width="6"/>
+    <circle cx="550" cy="370" r="57" fill="#173d59" stroke="#f4b56f" stroke-width="4"/>
+    <text x="550" y="379" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">AI</text>
+  </g>
+
+  <g transform="translate(890 330)">
+    <rect x="0" y="20" width="128" height="118" rx="18" fill="#174b68" stroke="#61a8ce" stroke-width="2"/>
+    <g fill="#83bddc"><rect x="25" y="45" width="78" height="8" rx="4"/><rect x="25" y="67" width="55" height="8" rx="4"/><rect x="25" y="89" width="67" height="8" rx="4"/></g>
+    <text x="64" y="174" text-anchor="middle" fill="#d9e7f1" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">差分・質問</text>
+    <path d="M145 78h66" stroke="#62e9c3" stroke-width="6"/><path d="M198 63l18 15-18 15" fill="none" stroke="#62e9c3" stroke-width="6"/>
+    <circle cx="285" cy="78" r="66" fill="#164b57" stroke="#62e9c3" stroke-width="3"/>
+    <g stroke="#62e9c3" stroke-width="4"><path d="M250 55l35 23 34-28M285 78l-10 39M285 78l42 34"/></g>
+    <g fill="#78f2b7"><circle cx="250" cy="55" r="11"/><circle cx="285" cy="78" r="12"/><circle cx="319" cy="50" r="10"/><circle cx="275" cy="117" r="10"/><circle cx="327" cy="112" r="10"/></g>
+    <text x="285" y="174" text-anchor="middle" fill="#d9e7f1" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">索引・グラフ</text>
+    <path d="M365 78h66" stroke="#62e9c3" stroke-width="6"/><path d="M418 63l18 15-18 15" fill="none" stroke="#62e9c3" stroke-width="6"/>
+    <rect x="450" y="12" width="165" height="132" rx="20" fill="#eafbf6"/>
+    <g fill="#21a785"><rect x="475" y="39" width="26" height="26" rx="5"/><rect x="475" y="78" width="26" height="26" rx="5"/></g>
+    <g fill="#55758a"><rect x="516" y="43" width="72" height="7" rx="3"/><rect x="516" y="59" width="50" height="7" rx="3"/><rect x="516" y="82" width="66" height="7" rx="3"/><rect x="516" y="98" width="42" height="7" rx="3"/></g>
+    <text x="532" y="174" text-anchor="middle" fill="#d9e7f1" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">位置・関係・候補</text>
+    <path d="M532 206v65" stroke="#62e9c3" stroke-width="6"/><path d="M517 258l15 18 15-18" fill="none" stroke="#62e9c3" stroke-width="6"/>
+    <rect x="380" y="292" width="300" height="115" rx="22" fill="#123b45" stroke="#62e9c3" stroke-width="3"/>
+    <text x="530" y="340" text-anchor="middle" fill="#fff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="26" font-weight="700">小さな初期コンテキスト</text>
+    <text x="530" y="377" text-anchor="middle" fill="#9ef4d8" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="22">必要な本文だけ後から取得</text>
+    <path d="M380 350h-110" stroke="#62e9c3" stroke-width="6"/><path d="M283 335l-18 15 18 15" fill="none" stroke="#62e9c3" stroke-width="6"/>
+    <circle cx="210" cy="350" r="57" fill="#174b57" stroke="#62e9c3" stroke-width="4"/>
+    <text x="210" y="359" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="700">AI</text>
+    <path d="M210 419c0 36 322 46 322-1" fill="none" stroke="#7aa0b7" stroke-width="3" stroke-dasharray="10 12"/>
+    <text x="370" y="450" text-anchor="middle" fill="#a7c2d3" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="20">詳細が必要なときだけ追加参照</text>
+  </g>
+  <rect x="560" y="820" width="480" height="10" rx="5" fill="url(#mint)"/>
+</svg>

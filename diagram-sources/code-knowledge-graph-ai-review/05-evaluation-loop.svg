@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#eaf6f4"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#173449" flood-opacity=".14"/></filter></defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <text x="85" y="105" fill="#0b2840" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="52" font-weight="700">採用判断は「30 件の実案件タスク」で行う</text>
+  <text x="87" y="157" fill="#557184" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="25">最初の検索結果ではなく、根拠付き回答が完成するまでを比較する</text>
+
+  <g filter="url(#s)">
+    <rect x="70" y="230" width="310" height="180" rx="26" fill="#ffffff"/>
+    <rect x="455" y="230" width="310" height="180" rx="26" fill="#ffffff"/>
+    <rect x="840" y="230" width="310" height="180" rx="26" fill="#ffffff"/>
+    <rect x="1225" y="230" width="310" height="180" rx="26" fill="#ffffff"/>
+  </g>
+  <g font-family="Hiragino Sans, Yu Gothic, sans-serif" text-anchor="middle">
+    <circle cx="225" cy="276" r="24" fill="#123f5b"/><text x="225" y="285" fill="#fff" font-size="24" font-weight="700">1</text>
+    <text x="225" y="335" fill="#0b2840" font-size="28" font-weight="700">タスクを固定</text><text x="225" y="372" fill="#657e8f" font-size="21">変更影響調査 × 約 30 件</text>
+    <circle cx="610" cy="276" r="24" fill="#123f5b"/><text x="610" y="285" fill="#fff" font-size="24" font-weight="700">2</text>
+    <text x="610" y="335" fill="#0b2840" font-size="28" font-weight="700">Baseline と比較</text><text x="610" y="372" fill="#657e8f" font-size="21">全文検索・LSP・既存テスト</text>
+    <circle cx="995" cy="276" r="24" fill="#087f72"/><text x="995" y="285" fill="#fff" font-size="24" font-weight="700">3</text>
+    <text x="995" y="335" fill="#0b2840" font-size="28" font-weight="700">同じ品質で測る</text><text x="995" y="372" fill="#657e8f" font-size="21">根拠付き最終回答まで</text>
+    <circle cx="1380" cy="276" r="24" fill="#087f72"/><text x="1380" y="285" fill="#fff" font-size="24" font-weight="700">4</text>
+    <text x="1380" y="335" fill="#0b2840" font-size="28" font-weight="700">Gate で判断</text><text x="1380" y="372" fill="#657e8f" font-size="21">採用・改善・停止</text>
+  </g>
+  <g stroke="#22b89b" stroke-width="6"><path d="M390 320h45"/><path d="M775 320h45"/><path d="M1160 320h45"/></g>
+  <g fill="none" stroke="#22b89b" stroke-width="6"><path d="M420 305l18 15-18 15"/><path d="M805 305l18 15-18 15"/><path d="M1190 305l18 15-18 15"/></g>
+
+  <rect x="120" y="490" width="1360" height="260" rx="30" fill="#0b2840"/>
+  <text x="800" y="548" text-anchor="middle" fill="#ffffff" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="29" font-weight="700">比較する 5 つの証拠</text>
+  <g font-family="Hiragino Sans, Yu Gothic, sans-serif" text-anchor="middle">
+    <g transform="translate(205 590)"><circle cx="0" cy="0" r="34" fill="#31c8a6"/><text x="0" y="10" fill="#fff" font-size="29" font-weight="700">T</text><text x="0" y="76" fill="#d9e8f1" font-size="23">総トークン数</text><text x="0" y="108" fill="#91adbf" font-size="19">追加参照・出力を含む</text></g>
+    <g transform="translate(500 590)"><circle cx="0" cy="0" r="34" fill="#31c8a6"/><text x="0" y="10" fill="#fff" font-size="29" font-weight="700">R</text><text x="0" y="76" fill="#d9e8f1" font-size="23">見逃し・再現率</text><text x="0" y="108" fill="#91adbf" font-size="19">必要な影響候補</text></g>
+    <g transform="translate(800 590)"><circle cx="0" cy="0" r="34" fill="#31c8a6"/><text x="0" y="10" fill="#fff" font-size="29" font-weight="700">F</text><text x="0" y="76" fill="#d9e8f1" font-size="23">誤検出</text><text x="0" y="108" fill="#91adbf" font-size="19">不要な候補の比率</text></g>
+    <g transform="translate(1100 590)"><circle cx="0" cy="0" r="34" fill="#31c8a6"/><text x="0" y="10" fill="#fff" font-size="29" font-weight="700">L</text><text x="0" y="76" fill="#d9e8f1" font-size="23">p50 / p95 待ち時間</text><text x="0" y="108" fill="#91adbf" font-size="19">回答完了まで</text></g>
+    <g transform="translate(1380 590)"><circle cx="0" cy="0" r="34" fill="#f1b562"/><text x="0" y="10" fill="#fff" font-size="29" font-weight="700">I</text><text x="0" y="76" fill="#d9e8f1" font-size="21">索引の運用コスト</text><text x="0" y="108" fill="#91adbf" font-size="19">構築・更新・復旧</text></g>
+  </g>
+  <rect x="455" y="795" width="690" height="56" rx="28" fill="#d8f6ed" stroke="#22b89b" stroke-width="2"/>
+  <text x="800" y="832" text-anchor="middle" fill="#0b665b" font-family="Hiragino Sans, Yu Gothic, sans-serif" font-size="24" font-weight="700">改善しても、見逃しと安全性が悪化したら採用しない</text>
+</svg>
