@@ -3,7 +3,7 @@ title: "個人開発のサービス選び：AI・DB・認証・配信の料金�
 emoji: "🧭"
 type: "idea"
 topics: ["個人開発", "ai", "supabase", "cloudflare", "expo"]
-published: false
+published: true
 ---
 
 **AI、データベース、認証、画像・動画配信から収益化まで。特徴・料金・使い方・安全性を、利用シナリオ別に比較する。**
